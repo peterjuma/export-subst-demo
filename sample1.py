@@ -1,10 +1,8 @@
-# Python program to find Area of a circle 
 
-def findArea(r): 
-	PI = 3.142
-	return PI * (r*r); 
+message = '$Format:The author of %h was %an, %ar%nThe title was >>%s<<%n' 
 
-# Driver method 
-print("Area is %.6f" % findArea(5)); 
+COMMIT = '$Format:Last commit: %h by %aN at %cd%n%+w(76,6,9)%B$'
 
-# This code is contributed by Chinmoy Lenka
+version = "$Format:%(describe:tags=true)$"
+
+
