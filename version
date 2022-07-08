@@ -1,1 +1,2 @@
-version: $Format:%(describe)$
+version = '$Format:%(describe:tags=true)$'
+version2: $Format:%(describe)$
